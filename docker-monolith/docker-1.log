@@ -1,0 +1,10 @@
+REPOSITORY          TAG                 IMAGE ID            CREATED              SIZE
+mycont              latest              48282f3e41f9        About a minute ago   124MB
+ubuntu              16.04               96da9143fb18        3 weeks ago          124MB
+bitnami/apache      latest              944c4535dbc3        2 months ago         111MB
+nginx               latest              231d40e811cd        2 months ago         126MB
+ubuntu              latest              775349758637        3 months ago         64.2MB
+hello-world         latest              fce289e99eb9        13 months ago        1.84kB
+
+образ - это своего рода "слепок" на основе которого запускается контейнер - сущность, которой мы уже можем управлять. У каждого контейнера обязательно есть образ,
+на основе которого он запущен.
