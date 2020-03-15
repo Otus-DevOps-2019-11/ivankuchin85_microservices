@@ -55,7 +55,7 @@ services:
       - 3000:3000
 
   alertmanager:
-    image: ${USER_NAME}/alertmanager
+    image: ${USERNAME}/alertmanager
     networks: 
       - reddit
     command:
