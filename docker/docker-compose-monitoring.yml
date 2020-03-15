@@ -1,4 +1,5 @@
 version: '3.3'
+
 services:
   prometheus:
     build: ../monitoring/prometheus
