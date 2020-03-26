@@ -47,8 +47,13 @@ ivankuchin85 microservices repository
 3. Настроены несколько дашбордов в Graphana
 4. Установлен alertmanager, настроен сбор алертинг с нотификацией в чат slack
 
-#ДЗ-1 Logging
+## ДЗ-1 Logging
 1. Собран Docker-образ fluentd, настроена отправка логов docker-контейнеров в этот сервис 
 2. Собраны Docker-образы Elasticsearch и Kibana, настроен парсинг json логов в kibana
 3. Настроен сбор логов для сервиса ui, настроен парсинг логов для этого сервиса
 4. Собран Zipkin, проверена работа трейсинга
+
+## ДЗ-1 Kubernetes
+1. Пройден Kubernetes The Hard Wayt
+2. Созданы Deployment манифесты для приложения
+3. Проверена работа команды kubectl apply для всех манифестов
