@@ -2,18 +2,18 @@
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
-  name: comment-deployment
+  name: mongo-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: comment
+      app: mongo
   template:
     metadata:
-      name: comment
+      name: mongo
       labels:
-        app: comment
+        app: mongo
     spec:
       containers:
-      - image: mersey/comment
-        name: comment
+      - image: mersey/mongo
+        name: mongo
