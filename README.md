@@ -57,3 +57,9 @@ ivankuchin85 microservices repository
 1. Пройден Kubernetes The Hard Wayt
 2. Созданы Deployment манифесты для приложения
 3. Проверена работа команды kubectl apply для всех манифестов
+
+## ДЗ-2 kubernetes
+1. Установлен kubernetes c помощью minikube
+2. Подняты необходимые POD и services для функционирования приложения
+3. Создан кластер kubernets в GCP
+4. Приложение задеплоено на этот кластер
